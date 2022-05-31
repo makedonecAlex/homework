@@ -1,0 +1,82 @@
+XML
+ 21. Создать внешний репозиторий c названием XML.
+Create a new repository XML
+
+ 22. Клонировать репозиторий XML на локальный компьютер.
+git clone https://github.com/makedonecAlex/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml”.
+touch new.xml
+
+ 24. Добавить файл под гит.
+git add new.xml
+
+ 25. Закоммитить файл.
+git commit -m "add file xml"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+cat>>new.xml
+<?xml version="1.0"?>
+<CAT>
+  <NAME>Alex</NAME>
+  <NAME>Safonau</NAME>
+  <AGE>34</AGE>
+  <HOME_ANIMAL>zero</HOME_ANIMAL>
+  <Salary>1000</Salary>
+</CAT>
+
+ 28. Отправить изменения на внешний репозиторий.
+git add new.xml
+git commit -m "add new info^Cml"
+git push
+
+ 29. Создать файл preferences.xml
+touch preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+cat>>preferences.xml
+<?xml version="1.0"?>
+<CAT>
+  <favorit_movie>Avatar</favorit_movie>
+  <favorit_series>Friends</favorit_series>
+  <favorit_food>hash browns</favorit_food>
+  <favorit_season>summer</favorit_season>
+  <favorit_country>USA</favorit_country>
+</CAT>
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+touch skills.xml
+
+ 32. Сделать коммит в одну строку.
+git add . | git commit -m "add 2 new file xml"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+ git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+Create new file
+
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+
+<?xml version="1.0"?>
+<CAT>
+  <Ошибка>не отображается слово для перевода, пока не поменяешь размер шрифта</Ошибка>
+  <Тип>баг</Тип>
+  <Приоритет>средний</Приоритет>
+  <Автор>Александр Сафонов</Автор>
+  <Серьезность>средняя</Серьезность>
+  <Версия>1.2.5</Версия>
+  <Окружение>android 8.0</Окружение>
+ </CAT>
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit new file
+
+ 38. Синхронизировать внешний и локальный репозиторий XML
+git pull
