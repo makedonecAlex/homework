@@ -6,13 +6,7 @@
 - SQL
 - Charles
 - Mobile testing
-git init  Postman
-		 Jmeter
-		 CheckLists
- 		 Bag Reports
-		 SQL
- 		 Charles
-		 Mobile testing
+mkdir Postman,Jmeter,CheckLists,Bag\ Reports,SQL,Charles,Mobile\ testing
 
 
 2. Запушить все ветки на внешний репозиторий

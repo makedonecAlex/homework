@@ -115,10 +115,10 @@ grep -r second ./
 grep -l second ./*.txt
 
  31. Найти все строки во всех файлах где нет комбинации “second”
-grep -vr second
+grep -vhr second
 
  32. Найти только название и путь к файлам где нет комбинации “second”
-grep -vrl second
+grep -vrL second
 
 
  33. Вывести в терминал 4 последних строк любого текстового файла
