@@ -47,7 +47,7 @@ the sec 2
 ctrl+c
 
  11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3”
-cat>>tf_2.txt 
+cat>>../tf_2.txt 
 the sec 3
 ctrl+c
 
@@ -57,7 +57,7 @@ the SeCoNd 2
 ctrl+c
 
  13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2”
-cat>>tf_2.txt 
+cat>>../tf_2.txt 
 the seConD 2
 ctrl+c
 
