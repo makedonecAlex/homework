@@ -71,7 +71,7 @@ Commit changes
 "Status": "открытый",
 "Author": "Александр Сафонов",
 "Severity": "средняя",
-"Version" 1.2.5
+"Version": 1.2.5
 "OS": "android 8.0"
 }
 
