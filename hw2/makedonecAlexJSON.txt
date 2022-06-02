@@ -20,9 +20,9 @@ git push
  10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
  cat>>new.json
 {
-    "Safonau Aliasandr Mihailovich",
+    "Name": "Safonau Aliasandr Mihailovich",
     "Age": 34,
-    "Home animal" "zero",
+    "Home animal": "zero",
     "Salary": 1000
 }
 
@@ -36,21 +36,18 @@ touch preferences.json
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
 cat>>preferences.json
 {
-    "favorit_movie": "Avatar",
-    "favorit_series": "Friend",
-    "favorit_food": "hash browns",
-    "favorit_season": "Summer",
-    "favorit_country": "USA",
+    "favorit movie": "Avatar",
+    "favorit series": "Friend",
+    "favorit food": "hash browns",
+    "favorit season": "Summer",
+    "favorit country": "USA"
 }
 
 
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
  cat>>skills.json
 {
-    "My new skill"
-     "basic knowledge of terminal"
-     "entry level with GitHub"
-     "find a solution to a problem"
+    "My new skill": ["basic knowledge of terminal","entry level with GitHub","find a solution to a problem"]
 }
 
 
@@ -68,14 +65,14 @@ Commit changes
 
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 {
-"Ошибка": "не отображается слово для перевода, пока не поменяешь размер шрифта",
-"Тип": "баг",
-"Приоритет": "средний",
-"Статус": "открытый",
-"Автор": "Александр Сафонов",
-"Серьезность": "средняя",
-"Версия" 1.2.5
-"Окружение": "android 8.0"
+"Summary": "не отображается слово для перевода, пока не поменяешь размер шрифта",
+"Type": "баг",
+"Priority": "средний",
+"Status": "открытый",
+"Author": "Александр Сафонов",
+"Severity": "средняя",
+"Version" 1.2.5
+"OS": "android 8.0"
 }
 
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
