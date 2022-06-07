@@ -47,7 +47,7 @@ cat>>preferences.json
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
  cat>>skills.json
 {
-    "My new skill": ["basic knowledge of terminal","entry level with GitHub","find a solution to a problem"]
+    "My_new_skill": ["basic knowledge of terminal","entry level with GitHub","find a solution to a problem"]
 }
 
 
