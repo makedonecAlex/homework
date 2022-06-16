@@ -75,10 +75,10 @@
 
 CONNECT		нет	
 DELETE		да	
-GET	          да	 
-HEAD	   	     да	
-OPTIONS	    	да	
-POST			нет	
+GET	        да	 
+HEAD	   	да	
+OPTIONS	    да	
+POST		нет	
 PUT			да	
 TRACE		да
 
